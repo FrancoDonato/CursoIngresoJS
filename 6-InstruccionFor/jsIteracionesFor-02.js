@@ -1,5 +1,9 @@
 function mostrar()
 {
 
-	alert("ok");
+	for(let contador = 10 ; contador>=1 ; contador--){
+		document.write(contador + "<br>");
+	}
+
+	
 }
